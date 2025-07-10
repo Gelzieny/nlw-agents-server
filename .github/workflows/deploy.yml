@@ -8,6 +8,8 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+    env:
+      RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
 
     steps:
       - name: 📥 Checkout do código
@@ -24,16 +26,8 @@ jobs:
       - name: ✅ Verificar TypeScript
         run: npx tsc --noEmit
 
-      - name: 🚀 Publicar imagem Docker (se quiser)
-        run: echo "Aqui vai o deploy"
-
       - name: 📦 Instalar Railway CLI
         run: npm i -g @railway/cli
-      
-      - name: Configurar Railway Token
-        run: echo $RAILWAY_TOKEN | railway auth login --stdin
-        env:
-          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
-      
+
       - name: 🚀 Deploy via Railway
         run: railway up
