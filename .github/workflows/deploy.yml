@@ -1,0 +1,28 @@
+name: Deploy da API Fastify
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout do código
+        uses: actions/checkout@v3
+
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+
+      - name: 📦 Instalar dependências
+        run: npm install
+
+      - name: ✅ Verificar TypeScript
+        run: npx tsc --noEmit
+
+      - name: 🚀 Publicar imagem Docker (se quiser)
+        run: echo "Aqui vai o deploy"
