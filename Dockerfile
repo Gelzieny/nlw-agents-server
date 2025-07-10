@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # Verifica o TypeScript (sem gerar arquivos)
-RUN npm run build
+RUN npm run start
 
 # Etapa 2: produção
 FROM node:22
