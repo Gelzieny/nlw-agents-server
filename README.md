@@ -114,3 +114,11 @@ A API estará disponível em `http://localhost:3333`
 
 - `GET /health` - Health check da aplicação
 - `GET /rooms` - Lista as salas disponíveis
+
+# 🧑🏻‍💻 Autor
+
+Feito com ❤️ por Gelzieny R. Martins 👋🏽 [Entre em contato!](https://www.linkedin.com/in/gelzieny-r-martins-180551106/)
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
