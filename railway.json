@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "deploy": {
+    "startCommand": "node --env-file .env --experimental-strip-types --no-warnings src/server.ts"
+  }
+}
