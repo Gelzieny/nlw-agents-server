@@ -6,6 +6,7 @@ import {
   validatorCompiler,
   type ZodTypeProvider,
 } from 'fastify-type-provider-zod'
+import 'dotenv/config'
 
 import { env } from './env.ts'
 import { createQuestionRoute } from './http/routes/create-question.ts'
