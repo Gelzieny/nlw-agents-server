@@ -23,3 +23,6 @@ jobs:
 
       - name: ✅ Verificar TypeScript
         run: npx tsc --noEmit
+
+      - name: 🚀 Executar Migrações Drizzle
+        run: npx drizzle-kit migrate
