@@ -1,13 +1,13 @@
 <p align="center">
   <a href="#">
-    🔗 <img src=""  alt="Logo in.orbit" />
+    <img src="https://github.com/Gelzieny/nlw-agents-server/blob/main/.github/img/logo.png?raw=true"  alt="NLW Agents" />
   </a>
 </p>
 
 
 <p align="justify">
 
-API desenvolvida durante o **Next Level Week (NLW)** da [Rocketseat](https://www.rocketseat.com.br), com foco em performance, escalabilidade e uso de tecnologias modernas.
+API desenvolvida durante o **NLW Agents** da [Rocketseat](https://www.rocketseat.com.br), com foco em performance, escalabilidade e uso de tecnologias modernas.
 </p>
 
 ## Documentação
