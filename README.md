@@ -1,6 +1,6 @@
-<p align="center">
-  <a href="#"> 🔗  🧠 NLW Agents</a>
-</p>
+<h1 align="center">
+  🔗  🧠 NLW Agents
+</h1>
 
 <p align="justify">
 
