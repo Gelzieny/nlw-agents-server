@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": "22"
+  },
   "scripts": {
+    "build": "tsc --noEmit && npm run db:generate",
     "start": "node --env-file .env --experimental-strip-types --no-warnings src/server.ts",
     "dev": "node --env-file .env --experimental-strip-types --no-warnings --watch src/server.ts",
     "db:seed": "node --env-file .env --experimental-strip-types --no-warnings src/db/seed.ts",
