@@ -5,7 +5,7 @@
 </p>
 
 
-<p align="justify">
+<p align="center">
 
 API desenvolvida durante o **NLW Agents** da [Rocketseat](https://www.rocketseat.com.br), com foco em performance, escalabilidade e uso de tecnologias modernas.
 </p>
